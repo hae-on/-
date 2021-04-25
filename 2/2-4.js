@@ -1,4 +1,18 @@
+// fs 오류나서 백준에서 readline으로 풀었음
 // const fs = require('fs');
 // const input = fs.readFileSync('/dev/stdin').toString().split(' ');
-const sample = `1 2`; 
+const sample = `12 5`; 
 const input = sample.split(' ');
+
+const A = parseInt(input[0]);
+const B = parseInt(input[1]);
+
+if ( A>0 && B>0 ){
+    console.log(1)
+} else if ( A<0 && B>0 ){
+    console.log(2)
+} else if ( A<0 && B<0){
+    console.log(3)
+} else {
+    console.log(4)
+}
