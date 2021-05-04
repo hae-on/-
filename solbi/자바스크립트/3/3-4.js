@@ -9,6 +9,7 @@ const sample = `5
 1000 1000`;
 const input = sample.split("\n");
 
+// 정답
 let a = "";
 
 for (let i = 1; i <= input[0]; i++) {

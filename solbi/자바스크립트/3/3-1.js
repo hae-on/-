@@ -9,3 +9,9 @@ let A = parseInt(input[0]);
 for (let i = 1; i < 10; i++) {
   console.log(`${A} * ${i} = ${A * i}`);
 }
+
+// 더 간단한 풀이
+// let num = 2;
+// for(let i =1; i <10; i++){
+// console.log(`${num} * ${i} = ${num*i}`);
+// }

@@ -2,7 +2,7 @@
 // const input = fs.readFileSync("/dev/stdin").toString().split(" ");
 
 const sample = `3`;
-const input = sample.split("");
+const input = sample.split(" ");
 
 let n = Number(input[0]);
 let sum = 0;
