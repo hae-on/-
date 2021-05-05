@@ -1,10 +1,17 @@
-const sample = 5;
+let fs = require("fs")
+
+// 문자 하나
+let input = fs.readFileSync("/dev/stdin").toString().split(" ")
 
 
-for (let i = 1; i <= sample; i++) {
-    console.log(i);
+let answer = "";
+
+
+for (let i = 1; i <= input; i++) {
+    answer += i + "\n";
 }
 
+console.log(answer);
 
 
 
