@@ -4,7 +4,7 @@
 let num = Number(input);
 let a = "";
 
-for (let i = 1; i <= num; i++) {
+for (let i = num; i >= 1; i--) {
   a += i + "\n";
 }
 console.log(a);
