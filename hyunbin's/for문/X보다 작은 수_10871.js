@@ -1,7 +1,7 @@
-// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
-let sample = `10 5
-1 10 4 9 2 3 8 5 7 6`
+// let sample = `10 5
+// 1 10 4 9 2 3 8 5 7 6`
 const input = sample.split("\n");
 
 let first_line = input[0].split(" ");
