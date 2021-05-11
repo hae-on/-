@@ -2,15 +2,15 @@
 
 let N= `26`
 let input = N.split("");
-let sum = Number(N[0])+Number(N[1])
-N[1]
-//sum이 두자리 수일때
-if(100 > sum >= 10){
-
-} //sum이 한자리 수일때
-else(sum<10){}
+let A = ""
 
 
-console.log(input[0],input[1])
-console.log(sum)
+while(N != N){
+    let sum = parseInt(N/10) + (N%10)
+    N = String(N%10) + String(sum)
+    console.log(N)
+}
+
+console.log("출력")
+console.log(N)
 
