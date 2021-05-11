@@ -17,10 +17,10 @@ let num = 0
 for(i=0; i<9; i++){
     if(max < input[i]){
         max = input[i]
-        num = i+1
+        num = i
     }
 };
-console.log(num)
+console.log(num+1)
 console.log(max)
 
 

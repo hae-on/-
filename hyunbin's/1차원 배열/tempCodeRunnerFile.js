@@ -1,5 +1,3 @@
-
-// while(input[i] != ""){
-//     if()
-// }
-
+for(let i= 0; i<9; i++){
+    console.log(multi.split(i+""))
+}
