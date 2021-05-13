@@ -1,5 +1,5 @@
 // const fs = require('fs');
-// const input = fs.readFileSync('/dev/stdin').toString().split('\n').map(Number);
+// const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n').map(Number);
 //여기에 .trim()을 해줘야 함.
 
 const sample = `42
