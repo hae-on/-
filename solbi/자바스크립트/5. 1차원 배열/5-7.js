@@ -16,7 +16,7 @@ for (let i = 1; i <= res; i++) {
   let num = input[i].split(" ").map(Number);
 
   for (j = 1; j <= num[0]; j++) {
-    sum += num[j];
+    sum += num[j]; //전체 합산 값
   }
   let ave = sum / num[0];
   for (let k = 1; k <= num[0]; k++) {
