@@ -35,7 +35,7 @@ for(i = 1; i <= linesNumber; i++){
         }
     }
     count_people = people.split(" ").length -1
-    console.log(count_people)
+    // console.log(count_people)
     result = count_people/line_nums[0]*100
 
     // 비율: 맞은사람/사람들*100
