@@ -22,4 +22,5 @@ function hanoi(num, from, other, to) {
 }
 hanoi(N, "1", "2", "3");
 console.log(cnt);
+// 배열 형태로 출력 -> 형식 고치기
 console.log(answer.map((el) => el.join(" ")).join("\n"));
